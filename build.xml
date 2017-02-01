@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<project name="WebServer" default="all">
+
+	<target name="compile">
+		<mkdir dir="."/>
+		<javac srcdir="." destdir="."/>
+	</target>
+	
+	<target name="all" depends="compile">
+	</target>
+
+</project>
