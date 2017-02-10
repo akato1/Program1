@@ -31,8 +31,8 @@
  {
  String string;
  String part;
- Int counter = 0;
- Private Socket socket;
+ int counter = 0;
+ private Socket socket;
  
  /**
  * Constructor: must have a valid open socket
