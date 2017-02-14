@@ -1,4 +1,3 @@
-<?xml version="1.0" ?>
 <project name = "WebServer" default = "compile" basedir = ".">
 	<property name = "build" location = "build"/>
 	<property name = "src" location = "./"/>
