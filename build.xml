@@ -16,7 +16,7 @@
 		<javac srcdir = "${src}" destdir = "${build}/classes"/>
 	</target>
 	
-	<target name="all" depends="compile">
+	<target name="run" depends="compile">
 		<java classname = "WebServer" classpath = "${build}/classes"/>
 	</target>
 
